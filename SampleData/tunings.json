@@ -1,0 +1,7 @@
+[
+    {"category":"Standard Tuning","name":"Standard Tuning","relativeToStandard":[0,0,0,0,0,0]},
+    {"category":"Open","subcategory":"Open Major","name":"Open C","relativeToStandard":[-4,-2,-2,0,1,0]},
+    {"category":"Open","subcategory":"Open Major","name":"Open D","relativeToStandard":[-2,0,0,-1,-1,-2]},
+    {"category":"Open","subcategory":"Modal","name":"Dsus4/ DADGAD","relativeToStandard":[-2,0,0,0,-2,-2]},
+    {"category":"Dropped","name":"Drop D","relativeToStandard":[-2,0,0,0,0,0]},
+]
