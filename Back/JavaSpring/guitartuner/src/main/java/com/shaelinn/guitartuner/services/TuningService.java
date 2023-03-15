@@ -16,12 +16,9 @@ public class TuningService {
     SessionFactory sessionFactory;
 
     public TuningService() {
-
-        Configuration configuration = new Configuration();
-        configuration.configure("hibernate.cfg.xml");
+        Configuration configuration = new GuitarTuningDBConfig();
         configuration.addAnnotatedClass(Tuning.class);
         this.sessionFactory = configuration.buildSessionFactory();
-
     }
 
     public Tuning getTuning(String id) {

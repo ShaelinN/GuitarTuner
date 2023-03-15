@@ -24,3 +24,12 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+springBoot {
+	mainClass = 'com.shaelinn.guitartuner.GuitartunerApplication'
+}
+tasks.named("bootJar") {
+	manifest {
+		attributes 'Start-Class': 'com.shaelinn.guitartuner.GuitartunerApplication'
+	}
+}
